@@ -20,20 +20,6 @@ darkmode: false
 # Social links
 linkedin_username: https://www.linkedin.com/in/abhinagazta/
 
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
@@ -46,24 +32,6 @@ about_content: | # this will include new lines to allow paragraphs
   developing business applications in distributed ecosystems for data ingestion, digestion, assimilation and caching.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
@@ -83,7 +51,42 @@ content:
           * A/B tested on agoda website with big win in experiment and finally integrated. Multiple other image experiments with image types, codecs on carousels like jpeg2000, webp, padding, codecs and integrated. 
           * Built pix back office for adhoc image upload, manipulation, metadata update, soft deletion.
           * Mentoring a lean team of 4 engineers and consistently meeting all okrs. 
-
+    content:
+      - layout: left
+        title: Senior Software Engineer, MCKINSEY (Consultancy) 4 months
+        sub_title: Job title
+        link: Mckinsey.com
+        quote: >
+          Mckinsey( Consultancy )
+        description: | # this will include new lines to allow paragraphs
+          * Revenue cycle management tool for healthcare providers in US.
+          * Worked closely with mckinsey engagement manager, associate partner and partner to understand, 
+          translate business requirements into technical solutions. 
+          * Assist them with data driven insights for case studies.
+    content:
+      - layout: left
+        title: Senior Software Engineer, GUAVUS (Big Data Analytics Startup/Thales Company) 3.4 yrs
+        sub_title: Job title
+        link: Guavus.com
+        quote: >
+          Guavus( Big Data Analytics )
+        description: | # this will include new lines to allow paragraphs
+          * Actionable analytics on proprietary big data analytics platform and solutions for software defined networks for telecom companies.
+          * Created database utilities for purging, backup, restore, aggregation, business cube modelling,
+            big data scale persist and retrieval apis, data generators.
+          * Worked on integrating open source technologies like spark, sparksql, hbase, oozie, zookeeper onto the platform.
+          * Automated testing, validation of the entire platform with over 25k tests
+    content:
+      - layout: left
+        title: Associate Software Engineer, Stryker 1.3 yrs
+        sub_title: Job title
+        link: Stryker.com
+        quote: >
+          Stryker( Medical Technology )
+        description: | # this will include new lines to allow paragraphs
+          * Developed feature auto-freeze for freezing tool tip of navigated device during live surgery inside application
+          * N-tier architecture, workflow based application digesting medical dicom images and rendering to 3D models.
+          * Design discussions with neurosurgeons for several application enhancements and sales team training on app software.
   - title: Education
     layout: list
     content:
@@ -94,9 +97,10 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      Google Play Store Mobile Applications Published (hobby) -: 
+      * https://play.google.com/store/apps/details?id=com.abhinav.myapp.app&hl=en 
+      * https://play.google.com/store/apps/details?id=com.abhinav.rockconcert.rockhead&hl=en 
+      * https://play.google.com/store/apps/details?id=com.mygdx.com.abhinav.com.abhinav.game 
 
 # Footer
 footer_show_references: true
